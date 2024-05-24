@@ -3,7 +3,7 @@ CREATE TABLE Department
 ID integer PRIMARY KEY,
 DEPARTMENT varchar(20)
 );
---Исправила название столбца в таблицу Department
+--Исправила название столбца в таблице Department
 CREATE TABLE Users
 (
 ID integer PRIMARY KEY,

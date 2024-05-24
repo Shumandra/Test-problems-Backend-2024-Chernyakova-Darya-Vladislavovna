@@ -1,3 +1,4 @@
+--Работаю в pgadmin PostgreSQL
 CREATE TABLE Department
 (
 ID integer PRIMARY KEY,

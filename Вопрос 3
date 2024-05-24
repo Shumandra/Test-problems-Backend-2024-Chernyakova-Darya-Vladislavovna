@@ -1,0 +1,5 @@
+def greatest_sum(list1):
+    max_l=max(list1)
+    list1.remove(max(list1))
+    print(max_l+max(list1))
+#greatest_sum([2,7,4,1,8])

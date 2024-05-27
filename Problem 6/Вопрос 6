@@ -1,3 +1,3 @@
-SELECT DEPARTMENT, COUNT(*) as num_employees, avg(Salary)
+SELECT NAME, COUNT(*) as num_employees, avg(Salary)
 FROM Users JOIN Department ON Department.ID = Users.DEPARTMENT_ID
-GROUP BY DEPARTMENT;
+GROUP BY NAME;
